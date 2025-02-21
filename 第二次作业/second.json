@@ -1,0 +1,88 @@
+[
+    {
+        "prompt": "(李馆长带着小龙和大卫来到一间小小的展室，展柜里放着大小不一的墨块，墨块上有图案、文字，有的还描着金色。)\n大 卫：这些是墨吗？我觉得它们是艺术品呀。\n小 龙：是啊，没想到墨块这么漂亮。\n李馆长：不仅好看，而且还质量上乘。我们这里收藏的是松烟墨， 胶质均匀，色泽持久。\n大 卫：松烟墨？烟怎么能做成墨呢？\n李馆长：能啊，不过制作工序挺复杂。这种墨的主要原料是松树燃烧后留下的灰，所以选好松树至关重要。第一步，要在松树根部凿个小洞，用灯慢慢烤，让松脂流净，这叫去胶。\n小 龙：啊？不应该先砍树吗？\n李馆长：不能先砍树，得直接在树上去胶。去胶很重要，如果处理不好，会影响墨的渗透性。第二步，用竹篾编成半圆形竹篷，内外都糊上纸，立在地面上，然后把竹篷一节节连结起来搭在工棚里。竹篷用土掩实以防漏烟，内部用砖砌出烟道。在竹篷 上每隔一段距离开个小孔，用于出烟。\n大 卫：下一步呢？\n李馆长：第三步是制烟。将除去松脂后的松树砍倒，劈成小块， 放在竹篷的一头用慢火烧上几天。烟会顺着烟道进入竹篷，附着在纸上，然后停火几天，等竹篷冷却后进蓬收烟。\n小 龙：怎么收烟呢？\n李馆长：用鹅毛制成的扫烟工具，将竹篷上的松烟扫进容器内。烟按品质可以分为三类，最好的靠近竹篷尾部，这种烟最细，用于制造优质的墨。竹篷中间一段的较细，用于制造一般的墨。靠近燃烧处的最粗，用来制作印刷用墨。\n大 卫：原来松烟墨不只是用来印刷呀。\n李馆长： 松烟墨是墨中佳品，用途很广。写字、画画、印刷都可以。\n小 龙：印刷用的墨和平时写字用的墨有什么不同呢？\n李馆长：两种墨的制法不一样。一个是制成墨块，一个是制成膏状。印刷用墨是膏状墨，只需要研细，然后加胶料和酒制成膏状，在缸内存放三冬四夏，使臭味完全散去。这种膏状墨存放越久，墨质越好。使用时加水充分混合后，用一种特制的筛子过滤，然后用来印刷。\n大 卫：那写字、画画应该用墨块吧。\n李馆长：是的，制造墨块，得将炼好的烟用细绢筛到缸中，倒入上等皮胶和麝香、冰片、丁香等中草药和香料搅拌均匀。这是制作过程中最神秘的环节，配方从没对外公布过。\n小 龙：看来是商业秘密了。\n李馆长：是的。第三步是锤墨。将配好的墨粉在铁臼里捣研，然后加水揉搓、捶打，直至初步成型。然后是放入墨模，把墨锭表面压制上漂亮的图案，然后摊开晾干。一两的墨块需要晾6个月，墨块越大，晾干需要的时间越长。\n大 卫：看来制墨还真需要有耐心呢。\n李馆长：这还没结束呢。最后一步是修墨添金，用工具将毛边打磨、修平，除掉瑕疵。\n小 龙：添金是用金粉吗？\n李馆长：对，添金又叫描金，墨块出厂前，工人用金粉等颜料对上面的图案和文字进行描画、填彩。\n大 卫：没想到制墨这么复杂。\n李馆长：松烟墨难制，造纸也一样不容易。我们一起去看看优质的连史纸吧。\n请根据上述松烟墨内容，将涉及到的知识组织成单独的问答数据，要求问题的属性名设置为“query”，答案的属性名设置为“answer”，不要随意创作（输出json格式）",
+        "Q&A": [
+            {
+                "query": "松烟墨的主要原料是什么？",
+                "answer": "松树燃烧后留下的灰"
+            },
+            {
+                "query": "制作松烟墨的第一步是什么？",
+                "answer": "在松树根部凿个小洞，用灯慢慢烤，让松脂流净，这叫去胶。"
+            },
+            {
+                "query": "为什么制作松烟墨时不能先砍树？",
+                "answer": "得直接在树上去胶。去胶很重要，如果处理不好，会影响墨的渗透性。"
+            },
+            {
+                "query": "松烟墨制作中的制烟步骤是如何进行的？",
+                "answer": "将除去松脂后的松树砍倒，劈成小块，放在竹篷的一头用慢火烧上几天。烟会顺着烟道进入竹篷，附着在纸上，然后停火几天，等竹篷冷却后进蓬收烟。"
+            },
+            {
+                "query": "松烟墨按品质可以分为几类，分别用于什么？",
+                "answer": "烟按品质可以分为三类，最好的靠近竹篷尾部，用于制造优质的墨；竹篷中间一段的较细，用于制造一般的墨；靠近燃烧处的最粗，用来制作印刷用墨。"
+            },
+            {
+                "query": "印刷用墨和平时写字用的墨有什么不同？",
+                "answer": "两种墨的制法不一样。一个是制成墨块，一个是制成膏状。"
+            },
+            {
+                "query": "制造松烟墨块的过程中，什么环节是商业秘密？",
+                "answer": "将炼好的烟用细绢筛到缸中，倒入上等皮胶和麝香、冰片、丁香等中草药和香料搅拌均匀是商业秘密。"
+            },
+            {
+                "query": "松烟墨块制造的最后一步是什么？",
+                "answer": "修墨添金，用工具将毛边打磨、修平，除掉瑕疵，并用金粉等颜料对上面的图案和文字进行描画、填彩。"
+            }
+        ]
+    },
+    {
+        "prompt": "(Mr. Li, Xiaolong and David arrived at a small display room. In the showcases were various ink sticks with different patterns or Chinese characters, some even painted in gold.)\nDavid: Are they made of ink? I think they are art pieces.\nXiaolong: Wow, I didn’t expect ink sticks could be so exquisite.\nMr. Li: It’s pine-soot ink. It’s not only beautiful but of high quality. It has long-lasting colour and lustre.\nDavid: Pine-soot ink? Do you mean the soot can be made into ink sticks?\nMr. Li: Yes, it can, but the whole process is complicated. Its main raw material is the burned pine ashes after the pine wood is burnt, so it’s important to pick the right tree. When the tree is chosen, the first step is to degum. That is to say, cut a small hole in the root of a pine tree and place a lamp into it to heat the tree. In this way, the pine resin could be slowly removed.\nXiaolong: Ah, don’t they cut the tree first?\nMr. Li: No. Degumming should be done on a live tree, which is vital for the permeability of the ink. The second step is to build a smoking shed. Bamboo strips are first woven into several semi-circular canopies with pieces of paper pasted both inside and outside. Then they’re put on the ground and connected one after another, covered with soil at their bottom to prevent soot leakage. Finally, a long flue is built with bricks inside the canopies and holes are made at intervals to vent the smoke.\nDavid: What’s next?\nMr. Li: To make the soot. The degummed pine trees are chopped into small pieces and burned slowly with low fire at one end of the flue for a few days. The smoke will float out of the flue to adhere to the paper. After that, the fire is stopped for a few days to cool down before the soot is collected.\nXiaolong: How do they collect it?\nMr. Li: Use a special tool made of goose feathers to sweep the soot into a container. The soot fits into three categories in terms of its quality. The finest one, collected from the other end of the canopies, is the best for making premium ink. The moderately fine soot from the middle part is used to make ordinary ink, while the coarsest one near the fire is for printing ink.\nDavid: Ah, I see. Pine-soot ink is not just for printing.\nMr. Li: No, it’s not only for that. It’s of excellent quality, widely used in writing, painting and printing.\nXiaolong: What’s the difference between the ink for printing and writing?\nMr. Li: They’re made in different ways. One is the ink stick for writing and painting, and the other is the ink paste for printing. To make the paste, you have to grind the soot finely before mixing it with glue and rice wine. The newly-made paste needs to be deodorised in a tank for about three years. The longer it’s stored, the better it is. Before printing, you have to dissolve it in water thoroughly and refine it with a specially-made filter.\nDavid: And ink sticks are used for writing and painting, right?\nMr. Li: Yes. To make ink sticks, you have to use fine silk to filter the soot into a tank, and then mix it with ox-hide glue and some Chinese herbal medicines and spices such as musk, borneol, and clove. This is the most mysterious part of making ink sticks, and its detailed formula has always been kept secret.\nXiaolong: I see. It’s a business secret.\nMr. Li: Yes. The third step is to shape the ink. Grind the prepared ink powder in an iron mortar. Then, press and stretch it until it’s initially shaped.\nAfter that, the ink is put into a mould to imprint a beautiful pattern onto the surface and finally dried. It usually takes 6 months to dry a stick of 50 grams. The larger it is, the longer it’ll take.\nDavid: Well, it needs patience.\nMr. Li: It’s not finished yet. The last step is to trim the stick and colour it golden.\nXiaolong: Do you mean to use real gold powder?\nMr. Li: Yes, the patterns and words are painted with pigments like gold powder before they’re sold.\nDavid: I didn’t expect that making ink is so complicated.\nMr. Li: It’s difficult to make the pine-soot ink and making paper is just as challenging. Now let’s take a look at the high-quality Lianshi Paper.",
+        "Q&A": [
+            {
+                "query": "What is the main raw material of pine-soot ink?",
+                "answer": "The main raw material of pine-soot ink is the burned pine ashes after the pine wood is burnt."
+            },
+            {
+                "query": "What is the first step in making pine-soot ink?",
+                "answer": "The first step in making pine-soot ink is degumming, which involves cutting a small hole in the root of a pine tree and placing a lamp into it to heat the tree to remove the pine resin."
+            },
+            {
+                "query": "Why is degumming important in the process of making pine-soot ink?",
+                "answer": "Degumming is important for the permeability of the ink."
+            },
+            {
+                "query": "How is the soot collected in the process of making pine-soot ink?",
+                "answer": "The soot is collected using a special tool made of goose feathers to sweep the soot into a container."
+            },
+            {
+                "query": "How many categories of soot are there in terms of quality when making pine-soot ink?",
+                "answer": "The soot fits into three categories in terms of its quality."
+            },
+            {
+                "query": "What is the use of the finest soot when making pine-soot ink?",
+                "answer": "The finest soot, collected from the other end of the canopies, is the best for making premium ink."
+            },
+            {
+                "query": "Is pine-soot ink only used for printing?",
+                "answer": "No, pine-soot ink is of excellent quality, widely used in writing, painting, and printing."
+            },
+            {
+                "query": "How is the ink paste for printing made?",
+                "answer": "To make the paste, you have to grind the soot finely before mixing it with glue and rice wine. The newly-made paste needs to be deodorised in a tank for about three years."
+            },
+            {
+                "query": "What is the most mysterious part of making pine-soot ink sticks?",
+                "answer": "Mixing the soot with ox-hide glue and some Chinese herbal medicines and spices such as musk, borneol, and clove is the most mysterious part of making pine-soot ink sticks, and its detailed formula has always been kept secret."
+            },
+            {
+                "query": "How long does it usually take to dry a 50-gram pine-soot ink stick?",
+                "answer": "It usually takes 6 months to dry a 50-gram pine-soot ink stick. The larger it is, the longer it will take."
+            },
+            {
+                "query": "What is the last step in making pine-soot ink sticks?",
+                "answer": "The last step in making pine-soot ink sticks is to trim the stick and colour it golden, which involves painting the patterns and words with pigments like gold powder before they're sold."
+            }
+        ]
+    }
+]

@@ -1,0 +1,1054 @@
+[
+  {
+    "text": "We carry out math SFT on our augmented math instructional dataset for mathematics reasoning,",
+    "id": 587139,
+    "label": [
+      {
+        "start": 18,
+        "end": 21,
+        "text": "SFT",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431598,
+    "created_at": "2024-11-22T05:01:51.581976Z",
+    "updated_at": "2024-11-22T05:01:51.582029Z",
+    "lead_time": 281.198
+  },
+  {
+    "text": "and therefore we obtain the chat model, MATH-QWEN-CHAT, directly. Owing to shorter average",
+    "id": 587140,
+    "label": [
+      {
+        "start": 40,
+        "end": 54,
+        "text": "MATH-QWEN-CHAT",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431599,
+    "created_at": "2024-11-22T05:03:31.522353Z",
+    "updated_at": "2024-11-22T05:03:31.522391Z",
+    "lead_time": 99.637
+  },
+  {
+    "text": "lengths of the math SFT data, we use a sequence length of 1024 for faster training. Most user inputs",
+    "id": 587141,
+    "label": [
+      {
+        "start": 20,
+        "end": 23,
+        "text": "SFT",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431600,
+    "created_at": "2024-11-22T05:05:16.270829Z",
+    "updated_at": "2024-11-22T05:05:16.270881Z",
+    "lead_time": 104.441
+  },
+  {
+    "text": "in the math SFT dataset are examination questions, and it is easy for the model to predict the input",
+    "id": 587142,
+    "label": [
+      {
+        "start": 12,
+        "end": 15,
+        "text": "SFT",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431601,
+    "created_at": "2024-11-22T05:05:28.878360Z",
+    "updated_at": "2024-11-22T05:05:28.878405Z",
+    "lead_time": 12.252
+  },
+  {
+    "text": "Table 10: Results of pass@1 (%) on HumanEval and MBPP. Most scores are retrieved from the",
+    "id": 587143,
+    "label": [
+      {
+        "start": 35,
+        "end": 44,
+        "text": "HumanEval",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "text": "MBPP",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431602,
+    "created_at": "2024-11-22T05:07:28.744713Z",
+    "updated_at": "2024-11-22T05:09:56.097800Z",
+    "lead_time": 284.655
+  },
+  {
+    "text": "papers of StarCoder (Li et al., 2023d), CodeT5+ (Wang et al., 2023d), WizardCoder (Luo et al.,",
+    "id": 587144,
+    "label": [
+      {
+        "start": 10,
+        "end": 19,
+        "text": "StarCoder",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "text": "CodeT5+",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 70,
+        "end": 81,
+        "text": "WizardCoder",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431603,
+    "created_at": "2024-11-22T05:08:23.301074Z",
+    "updated_at": "2024-11-22T05:08:23.301121Z",
+    "lead_time": 54.274
+  },
+  {
+    "text": "2023b) and CODE LLAMA (Rozi`ere et al., 2023).",
+    "id": 587145,
+    "label": [
+      {
+        "start": 11,
+        "end": 21,
+        "text": "CODE LLAMA",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431604,
+    "created_at": "2024-11-22T05:08:36.796102Z",
+    "updated_at": "2024-11-22T05:08:36.796153Z",
+    "lead_time": 7.451
+  },
+  {
+    "text": "Model Params HumanEval MBPP",
+    "id": 587146,
+    "label": [
+      {
+        "start": 13,
+        "end": 22,
+        "text": "HumanEval",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "text": "MBPP",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431608,
+    "created_at": "2024-11-22T05:10:47.268291Z",
+    "updated_at": "2024-11-22T05:10:47.268341Z",
+    "lead_time": 36.549
+  },
+  {
+    "text": "Proprietary models",
+    "id": 587147,
+    "annotator": 151,
+    "annotation_id": 431610,
+    "created_at": "2024-11-22T05:10:51.618327Z",
+    "updated_at": "2024-11-22T05:10:51.618396Z",
+    "lead_time": 4.063
+  },
+  {
+    "text": "PaLM 540B 26.2 36.8",
+    "id": 587148,
+    "label": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "PaLM",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 9,
+        "text": "540B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431612,
+    "created_at": "2024-11-22T05:11:38.211078Z",
+    "updated_at": "2024-11-22T05:11:38.211127Z",
+    "lead_time": 46.267
+  },
+  {
+    "text": "PaLM-Coder 540B 36.0 47.0",
+    "id": 587149,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "PaLM-Coder",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "text": "540B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431613,
+    "created_at": "2024-11-22T05:11:49.764756Z",
+    "updated_at": "2024-11-22T05:11:49.764795Z",
+    "lead_time": 11.25
+  },
+  {
+    "text": "PaLM 2-S - 37.6 50.0",
+    "id": 587150,
+    "label": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "PaLM",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431617,
+    "created_at": "2024-11-22T05:12:29.569405Z",
+    "updated_at": "2024-11-22T05:12:29.569454Z",
+    "lead_time": 30.031
+  },
+  {
+    "text": "Code-Cushman-001 - 33.5 45.9",
+    "id": 587151,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Code-Cushman-001",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431620,
+    "created_at": "2024-11-22T05:13:28.402383Z",
+    "updated_at": "2024-11-22T05:15:10.849312Z",
+    "lead_time": 67.82900000000001
+  },
+  {
+    "text": "Code-Davinci-002 - 47.0 58.1",
+    "id": 587152,
+    "label": [
+      {
+        "start": 0,
+        "end": 16,
+        "text": "Code-Davinci-002",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431621,
+    "created_at": "2024-11-22T05:13:35.894989Z",
+    "updated_at": "2024-11-22T05:14:59.468461Z",
+    "lead_time": 21.070999999999998
+  },
+  {
+    "text": "GPT-3.5 - 73.2 -",
+    "id": 587153,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "GPT-3.5",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431622,
+    "created_at": "2024-11-22T05:14:03.435994Z",
+    "updated_at": "2024-11-22T05:14:03.436049Z",
+    "lead_time": 18.601
+  },
+  {
+    "text": "GPT-4 - 86.6 -",
+    "id": 587154,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "GPT-4",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431662,
+    "created_at": "2024-11-22T05:22:30.767984Z",
+    "updated_at": "2024-11-22T05:22:30.768025Z",
+    "lead_time": 46.196
+  },
+  {
+    "text": "Open-source models",
+    "id": 587155,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Open-source",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431624,
+    "created_at": "2024-11-22T05:15:34.775955Z",
+    "updated_at": "2024-11-22T05:15:34.776009Z",
+    "lead_time": 9.488
+  },
+  {
+    "text": "LLAMA 2",
+    "id": 587156,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "LLAMA",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431625,
+    "created_at": "2024-11-22T05:16:06.164564Z",
+    "updated_at": "2024-11-22T05:16:06.164616Z",
+    "lead_time": 31.102
+  },
+  {
+    "text": "7B 12.2 20.8",
+    "id": 587157,
+    "label": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "7B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431626,
+    "created_at": "2024-11-22T05:16:16.721508Z",
+    "updated_at": "2024-11-22T05:16:16.721559Z",
+    "lead_time": 10.283
+  },
+  {
+    "text": "13B 20.1 27.6",
+    "id": 587158,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "13B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431627,
+    "created_at": "2024-11-22T05:16:21.646397Z",
+    "updated_at": "2024-11-22T05:16:21.646449Z",
+    "lead_time": 4.621
+  },
+  {
+    "text": "34B 22.6 33.8",
+    "id": 587159,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "34B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431628,
+    "created_at": "2024-11-22T05:16:27.385616Z",
+    "updated_at": "2024-11-22T05:16:27.385648Z",
+    "lead_time": 5.204
+  },
+  {
+    "text": "70B 30.5 45.4",
+    "id": 587160,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "70B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431629,
+    "created_at": "2024-11-22T05:16:32.411733Z",
+    "updated_at": "2024-11-22T05:16:32.411782Z",
+    "lead_time": 4.771
+  },
+  {
+    "text": "CodeGen-Multi 16B 18.3 20.9",
+    "id": 587161,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "CodeGen-Multi",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 17,
+        "text": "16B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431630,
+    "created_at": "2024-11-22T05:16:45.614045Z",
+    "updated_at": "2024-11-22T05:16:45.614097Z",
+    "lead_time": 12.899
+  },
+  {
+    "text": "CodeGen-Mono 16B 29.3 35.3",
+    "id": 587162,
+    "label": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "CodeGen-Mono",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 16,
+        "text": "16B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431631,
+    "created_at": "2024-11-22T05:16:55.693460Z",
+    "updated_at": "2024-11-22T05:16:55.693511Z",
+    "lead_time": 9.763
+  },
+  {
+    "text": "CodeGeeX2 6B 35.9 -",
+    "id": 587163,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "CodeGeeX2",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 12,
+        "text": "6B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431633,
+    "created_at": "2024-11-22T05:17:06.785031Z",
+    "updated_at": "2024-11-22T05:17:06.785078Z",
+    "lead_time": 10.805
+  },
+  {
+    "text": "StarCoder-Prompted 15B 40.8 49.5",
+    "id": 587164,
+    "label": [
+      {
+        "start": 0,
+        "end": 18,
+        "text": "StarCoder-Prompted",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 22,
+        "text": "15B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431634,
+    "created_at": "2024-11-22T05:17:22.808608Z",
+    "updated_at": "2024-11-22T05:17:22.808656Z",
+    "lead_time": 15.691
+  },
+  {
+    "text": "CodeT5+ 16B 30.9 -",
+    "id": 587165,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "CodeT5+",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "text": "16B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431635,
+    "created_at": "2024-11-22T05:17:32.702746Z",
+    "updated_at": "2024-11-22T05:17:32.702797Z",
+    "lead_time": 9.593
+  },
+  {
+    "text": "InstructCodeT5+ 16B 35.0 -",
+    "id": 587166,
+    "label": [
+      {
+        "start": 0,
+        "end": 15,
+        "text": "InstructCodeT5+",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "text": "16B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431636,
+    "created_at": "2024-11-22T05:17:42.604503Z",
+    "updated_at": "2024-11-22T05:17:42.604554Z",
+    "lead_time": 9.583
+  },
+  {
+    "text": "CODE LLAMA",
+    "id": 587167,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "CODE LLAMA",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431638,
+    "created_at": "2024-11-22T05:18:35.761339Z",
+    "updated_at": "2024-11-22T05:18:35.761432Z",
+    "lead_time": 35.213
+  },
+  {
+    "text": "7B 33.5 41.4",
+    "id": 587168,
+    "label": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "7B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431639,
+    "created_at": "2024-11-22T05:18:42.309945Z",
+    "updated_at": "2024-11-22T05:18:42.309996Z",
+    "lead_time": 5.805
+  },
+  {
+    "text": "13B 36.0 47.0",
+    "id": 587169,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "13B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431640,
+    "created_at": "2024-11-22T05:18:47.797931Z",
+    "updated_at": "2024-11-22T05:18:47.797984Z",
+    "lead_time": 5.181
+  },
+  {
+    "text": "34B 48.8 55.0",
+    "id": 587170,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "34B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431641,
+    "created_at": "2024-11-22T05:19:43.573077Z",
+    "updated_at": "2024-11-22T05:19:43.573125Z",
+    "lead_time": 55.396
+  },
+  {
+    "text": "CODE LLAMA-INSTRUCT",
+    "id": 587171,
+    "label": [
+      {
+        "start": 0,
+        "end": 19,
+        "text": "CODE LLAMA-INSTRUCT",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431642,
+    "created_at": "2024-11-22T05:19:48.501502Z",
+    "updated_at": "2024-11-22T05:19:48.501540Z",
+    "lead_time": 4.638
+  },
+  {
+    "text": "7B 34.8 44.4",
+    "id": 587172,
+    "label": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "7B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431643,
+    "created_at": "2024-11-22T05:19:53.209130Z",
+    "updated_at": "2024-11-22T05:19:53.209180Z",
+    "lead_time": 4.394
+  },
+  {
+    "text": "13B 42.7 49.4",
+    "id": 587173,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "13B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431644,
+    "created_at": "2024-11-22T05:19:57.521736Z",
+    "updated_at": "2024-11-22T05:19:57.521787Z",
+    "lead_time": 4.028
+  },
+  {
+    "text": "34B 41.5 57.0",
+    "id": 587174,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "34B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431645,
+    "created_at": "2024-11-22T05:20:02.668798Z",
+    "updated_at": "2024-11-22T05:20:02.668849Z",
+    "lead_time": 4.884
+  },
+  {
+    "text": "CODE LLAMA-PYTHON",
+    "id": 587175,
+    "label": [
+      {
+        "start": 0,
+        "end": 17,
+        "text": "CODE LLAMA-PYTHON",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431646,
+    "created_at": "2024-11-22T05:20:08.401443Z",
+    "updated_at": "2024-11-22T05:20:08.401476Z",
+    "lead_time": 5.46
+  },
+  {
+    "text": "7B 38.4 47.6",
+    "id": 587176,
+    "label": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "7B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431647,
+    "created_at": "2024-11-22T05:20:13.324264Z",
+    "updated_at": "2024-11-22T05:20:13.324311Z",
+    "lead_time": 4.659
+  },
+  {
+    "text": "13B 43.3 49.0",
+    "id": 587177,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "13B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431648,
+    "created_at": "2024-11-22T05:20:18.777564Z",
+    "updated_at": "2024-11-22T05:20:18.777614Z",
+    "lead_time": 5.16
+  },
+  {
+    "text": "34B 53.7 56.2",
+    "id": 587178,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "34B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431649,
+    "created_at": "2024-11-22T05:20:24.952705Z",
+    "updated_at": "2024-11-22T05:20:24.952755Z",
+    "lead_time": 5.872
+  },
+  {
+    "text": "UNNATURAL CODE LLAMA 34B 62.2 61.2",
+    "id": 587179,
+    "label": [
+      {
+        "start": 10,
+        "end": 20,
+        "text": "CODE LLAMA",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 24,
+        "text": "34B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431650,
+    "created_at": "2024-11-22T05:21:27.295126Z",
+    "updated_at": "2024-11-22T05:21:27.295172Z",
+    "lead_time": 62.05
+  },
+  {
+    "text": "WizardCoder-Python 13B 64.0 55.6",
+    "id": 587180,
+    "label": [
+      {
+        "start": 0,
+        "end": 18,
+        "text": "WizardCoder-Python",
+        "labels": [
+          "series"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 22,
+        "text": "13B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431651,
+    "created_at": "2024-11-22T05:21:45.618334Z",
+    "updated_at": "2024-11-22T05:21:45.618399Z",
+    "lead_time": 18.007
+  },
+  {
+    "text": "34B 73.2 61.2",
+    "id": 587181,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "34B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431652,
+    "created_at": "2024-11-22T05:21:51.054793Z",
+    "updated_at": "2024-11-22T05:21:51.054840Z",
+    "lead_time": 5.117
+  },
+  {
+    "text": "QWEN-CHAT",
+    "id": 587182,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "QWEN-CHAT",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431653,
+    "created_at": "2024-11-22T05:21:55.958909Z",
+    "updated_at": "2024-11-22T05:21:55.958959Z",
+    "lead_time": 4.626
+  },
+  {
+    "text": "7B 37.2 35.8",
+    "id": 587183,
+    "label": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "7B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431654,
+    "created_at": "2024-11-22T05:22:01.306087Z",
+    "updated_at": "2024-11-22T05:22:01.306133Z",
+    "lead_time": 5.046
+  },
+  {
+    "text": "14B 43.9 46.4",
+    "id": 587184,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "14B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431655,
+    "created_at": "2024-11-22T05:22:06.516684Z",
+    "updated_at": "2024-11-22T05:22:06.516726Z",
+    "lead_time": 4.934
+  },
+  {
+    "text": "CODE-QWEN",
+    "id": 587185,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "CODE-QWEN",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431657,
+    "created_at": "2024-11-22T05:22:11.162574Z",
+    "updated_at": "2024-11-22T05:22:11.162624Z",
+    "lead_time": 4.364
+  },
+  {
+    "text": "7B 40.2 41.8",
+    "id": 587186,
+    "label": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "7B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431658,
+    "created_at": "2024-11-22T05:22:15.655194Z",
+    "updated_at": "2024-11-22T05:22:15.655249Z",
+    "lead_time": 4.222
+  },
+  {
+    "text": "14B 45.1 51.4",
+    "id": 587187,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "14B",
+        "labels": [
+          "params"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431659,
+    "created_at": "2024-11-22T05:22:21.226116Z",
+    "updated_at": "2024-11-22T05:22:21.226164Z",
+    "lead_time": 5.292
+  },
+  {
+    "text": "CODE-QWEN-CHAT",
+    "id": 587188,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "CODE-QWEN-CHAT",
+        "labels": [
+          "series"
+        ]
+      }
+    ],
+    "annotator": 151,
+    "annotation_id": 431660,
+    "created_at": "2024-11-22T05:22:25.892744Z",
+    "updated_at": "2024-11-22T05:22:25.892801Z",
+    "lead_time": 4.374
+  }
+]
